@@ -14,7 +14,9 @@
 */
 
 $router->group(['prefix' => 'v1'], function() use ($router){
-    $router->get('/test',function(){
-        return "ok";
-    });
+   
+});
+
+$router->get('/',function(){
+    return "success";
 });
